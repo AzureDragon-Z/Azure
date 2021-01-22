@@ -54,9 +54,9 @@ int main()
 		}
 	}
 	c[i] = z + '0';
-	printf("两数相加的值为：\n");
+	printf("Eventually the number of add is :\n");
 	reverse(c,(strlen(c) / sizeof(c[0])));
-	printf("\nc[] = ");
-	puts(c);
+// 	printf("\nc[] = ");
+// 	puts(c);
 	return 0;
 }
